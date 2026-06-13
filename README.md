@@ -373,33 +373,8 @@ For Power BI Service scheduled refresh with a local MySQL database, an on-premis
 - Data validation from source entry to reporting layer.
 - Power BI refresh workflow.
 
-## Known Limitation / Future Improvement
-
-The current Power BI report uses multiple SQL views such as `vw_sales_enriched`, `vw_state_performance`, `vw_category_performance`, `vw_product_performance`, and other aggregated views. Some slicers may not cross-filter every visual because all views are not connected through a complete star-schema relationship model.
-
-Future improvements:
-
-- Build a proper Power BI star schema.
-- Use `vw_sales_enriched` as the central fact table.
-- Create dimension tables such as `Dim_Date`, `Dim_Product`, `Dim_Category`, `Dim_State`, and `Dim_City`.
-- Create DAX measures from the central fact table.
-- Improve complete cross-filtering across all report pages.
-- Configure Power BI Gateway for scheduled refresh from local MySQL.
-- Add profit/margin metrics after adding `cost_price` or profit fields.
-- Deploy the frontend and backend.
-
-## Final Project Status
-
-- Frontend completed.
-- Backend completed.
-- MySQL database completed.
-- SQL schema and seed files completed.
-- SQL analytics views completed.
-- Power BI dashboard completed.
-- PDF report exported.
-- Screenshots added.
-- README created.
-
 ## Short Portfolio Summary
 
-This project demonstrates my ability to build an end-to-end analytics workflow covering data entry, backend APIs, database design, SQL analytics, Power BI reporting, and project documentation.
+This project showcases an end-to-end sales analytics workflow built using React, Flask, MySQL, SQL Views, and Power BI. It demonstrates how raw sales data can be captured through a frontend application, processed through backend APIs, stored in a relational database, transformed into analytics-ready SQL views, and visualized through an interactive Power BI dashboard.
+
+Through this project, I gained practical experience in frontend-backend integration, database design, SQL-based analysis, KPI creation, Power BI reporting, and documenting a complete analytics project for portfolio and interview presentation.
