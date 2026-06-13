@@ -1,0 +1,45 @@
+# Environment variables / secrets
+.env
+backend/.env
+frontend/.env
+
+# Python virtual environment
+.venv/
+backend/.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# React/Vite build
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temp/cache files
+*.tmp
+
+# Temporary/generated files
+_lcg_gen_output.py
+_lcg_output.json
+~$README.md
+
+# Internal/project temporary files
+PROJECT_CONTEXT.md
+data/_test_write.txt
